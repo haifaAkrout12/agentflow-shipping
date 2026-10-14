@@ -88,6 +88,7 @@ mcp_app = mcp_server.streamable_http_app(
     streamable_http_path="/mcp",
     stateless_http=True,
     json_response=True,
+    host="0.0.0.0",
 )
 
 # Wrap the MCP app to also handle /health and /shipment
