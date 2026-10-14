@@ -1,2 +1,9 @@
+anyio==4.15.1
 fastapi==0.143.0
+fastapi-cli==0.0.32
+fastapi-cloud-cli==0.26.0
+mcp==2.3.0
+mcp-types==2.3.0
+sse-starlette==3.5.0
+starlette==1.7.0
 uvicorn==0.54.0
